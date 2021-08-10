@@ -1,3 +1,5 @@
+#!/bin/bash -l
+
 cd /scratch.global/pmorrell/Cowpea
 
 for FOLDER in fasta_*
