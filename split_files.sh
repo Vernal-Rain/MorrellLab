@@ -12,5 +12,5 @@ do
 	mkdir $dir
 	fi
 
-	mv FILE $dir
+	mv $FILE $dir
 done
