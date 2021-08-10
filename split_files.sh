@@ -1,3 +1,5 @@
+#!/bin/bash -l
+
 cd /scratch.global/pmorrell/Cowpea
 
 i=0
