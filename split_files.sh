@@ -6,7 +6,7 @@ mkdir $dir
 
 for FILE in *.fasta
 do 
-	if [ls $dir | wc -l > 100]; then
+	if [ls $dir | wc -l > 150]; then
 	((i++))
 	dir=fasta_$i
 	mkdir $dir
