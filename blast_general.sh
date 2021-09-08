@@ -1,8 +1,8 @@
 #!/bin/bash -l
-#SBATCH --time=50:00:00
-#SBATCH --ntasks=8
-#SBATCH --mem=16g
-#SBATCH --tmp=16g
+#SBATCH --time=48:00:00
+#SBATCH --ntasks=32
+#SBATCH --mem=64g
+#SBATCH --tmp=64g
 #SBATCH --mail-type=ALL
 #SBATCH --mail-user=lee02326@umn.edu
 
@@ -24,7 +24,7 @@ BLAST=blastn
 #   You can point it to a local copy of an NCBI database
 DB=/panfs/roc/risdb_new/blast/current/nt
 #   The directory containing the SNPs to blast
-TO_BLAST=/scratch.global/pmorrell/Cowpea/$1
+TO_BLAST="/scratch.global/pmorrell/Cowpea/$1"
 #   The number of hits to return total for each query
 NUM_HITS=5
 #   The maximum e-value to return
@@ -44,5 +44,6 @@ do
     -out ${OUT_BLAST}\
     -outfmt 5\
     -max_target_seqs ${NUM_HITS}\
+    -negative_taxids 3917\
     -evalue ${EVALUE}
 done

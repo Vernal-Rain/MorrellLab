@@ -1,8 +1,8 @@
 #!/bin/bash -l
 
-cd /scratch.global/pmorrell/Cowpea
+cd /scratch.global/pmorrell/Cowpea/testing2
 
 for FOLDER in fasta_*
 do
-	sbatch blast_general.sh $FOLDER
+	sbatch ~/"workspace/blast_general.sh" "testing2/$FOLDER"
 done

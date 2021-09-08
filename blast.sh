@@ -1,10 +1,12 @@
 #!/bin/bash -l
 #SBATCH --time=24:00:00
 #SBATCH --ntasks=8
-#SBATCH --mem=10g
-#SBATCH --tmp=10g
+#SBATCH --mem=16g
+#SBATCH --tmp=16g
 #SBATCH --mail-type=ALL
 #SBATCH --mail-user=lee02326@umn.edu
+#SBATCH --gres=gpu:v100:1
+#SBATCH -p v100
 
 #   Written by Elaine Lee
 #   26 July 2021, St Paul, MN
@@ -39,7 +41,7 @@ do
     OUT_BLAST=${SNP/%.fasta/.xml}
     #   The next few lines actually perform the search
     #   If you want to BLAST against NCBI's database, add the '-remote' switch
-    $BLAST -query $SNP\
+    $BLAST -negative_taxids 3917 -query $SNP\
     -db $DB\
     -out ${OUT_BLAST}\
     -outfmt 5\
