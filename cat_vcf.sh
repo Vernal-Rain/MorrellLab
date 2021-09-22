@@ -11,7 +11,7 @@ set -u
 set -o pipefail
 
 DIR=/scratch.global/lee02326/TZ30_vcfs
-OUT_NAME=$1
+NAME=$1
 cd "$DIR"
 
-cat *.vcf | sort -k 0 > "$OUT_NAME.vcf"
+bcftools concat -O v -o "$NAME.vcf" *.vcf
