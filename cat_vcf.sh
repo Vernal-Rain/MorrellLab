@@ -10,6 +10,8 @@ set -e
 set -u
 set -o pipefail
 
+module load bcftools
+
 DIR=/scratch.global/lee02326/TZ30_vcfs
 NAME=$1
 cd "$DIR"
