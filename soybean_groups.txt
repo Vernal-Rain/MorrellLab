@@ -1,0 +1,14 @@
+WPT --- UMN transgenic (20)
+3MT, 6MT --- UGA transgenic (20)
+
+WTP --- UMN tissue culture (4)
+3MR, 6MR --- UGA tissue culture (4)
+
+Bert, Jack, M92, Williams --- controls (20)
+
+FN --- fast neutron radiation (4) 
+!short 1!
+-> big changes (whole genes)
+
+NMU --- chemical mutagen
+-> point mutations
