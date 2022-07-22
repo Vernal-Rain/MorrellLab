@@ -2,6 +2,7 @@ Variant Effect Predictor
 
 Variant Effect Predictor (VEP) analysis was performed to determine the effects of SNPs and indels in both core and noncore genes
 
+
 Dependecies
 - HTSlib 1.9
 - CentOS 7.5.26.1
