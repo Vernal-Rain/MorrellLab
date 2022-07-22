@@ -15,12 +15,19 @@ Core and non-core genes were extracted from the ITK97 assembly and VEP analysis 
 - Noncore SNPs  
 - Core indels   
 - Noncore indels   
-      
-      
-# Files      
-The following are example scripts used to run VEP:   
-- Template vep file: `vep_template.sh` 
+
+The following are a template and an example script used to run VEP:   
+- Template VEP script: `vep_template.sh` 
 -  ! add example script !
+       
+       
+# Files 
+- Core SNPs:  
+- Noncore SNPs:  
+- Core indels:   
+- Noncore indels:
+- GFF assembly:
+- Reference fasta:
      
      
 # Results    
