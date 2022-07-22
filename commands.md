@@ -1,1 +1,3 @@
-Scratch: `find . -type f -exec touch {} + &`
+# Useful teminal commands
+
+Renew scratch files: `find . -type f -exec touch {} + &`
