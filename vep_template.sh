@@ -20,7 +20,7 @@ VARIANT_SET=
 VCF=
 # Add path to .gff file 
 GFF=
-# Add path to reference fasta 
+# Add path to .fasta file
 FASTA=
 
 # Specify out directory
