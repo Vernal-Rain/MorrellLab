@@ -8,6 +8,6 @@ Dependecies
 
 
 Files 
-vep_template.sh: Template vep file
+vep_template.sh: Template vep file     
 vep_core_snps.sh: Example vep file to analyze SNPs in core genes
 
