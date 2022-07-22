@@ -1,1 +1,1 @@
-Scratch: find . -type f -exec touch {} + &
+Scratch: `find . -type f -exec touch {} + &`
