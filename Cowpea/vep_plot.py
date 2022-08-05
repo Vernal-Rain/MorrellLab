@@ -6,7 +6,7 @@
 
 import pandas as pd
 
-df = pd.DataFrame({'Variant Set': ['Core\nSNPs', 'Noncore\nSNPs', 'Core\nIndels', 'Noncore\nIndels'], 'Synonymous': [89298, 100112, 0, 0], 'Inframe Indel': [0, 0, 3960, 6447], 'Missense': [81135, 170812, 0, 0], 'Start or Stop Change': [356, 836, 252, 297], 'Stop Gain': [889, 3662, 196, 687], 'Frameshift': [0, 0, 3672, 16908]})
+df = pd.DataFrame({'Variant Set': ['Core\nSNPs', 'Noncore\nSNPs', 'Core\nIndels', 'Noncore\nIndels'], 'Synonymous': [89593, 101751, 0, 0], 'Inframe Indel': [0, 0, 3966, 6526], 'Missense': [81408, 173845, 0, 0], 'Start or Stop Change': [356, 853, 253, 261], 'Stop Gain': [891, 3740, 196, 701], 'Frameshift': [0, 0, 3698, 17267]})
 
 import matplotlib.pyplot as plt
 import seaborn as sns
