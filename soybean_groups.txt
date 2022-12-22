@@ -12,3 +12,100 @@ FN --- fast neutron radiation (4)
 
 NMU --- chemical mutagen
 -> point mutations
+
+
+NMU
+Williams-82-ISU-01-01_S48_R1_001.fastq.gz
+Williams-82-ISU-01-03_S50_R1_001.fastq.gz
+Williams-82-ISU-01-05_S52_R1_001.fastq.gz
+Williams-82-ISU-01-02_S49_R1_001.fastq.gz
+Williams-82-ISU-01-04_S51_R1_001.fastq.gz
+NMU_14204_S1_R1_001.fastq.gz
+NMU_16331_S13_R1_001.fastq.gz
+NMU_20728_S16_R1_001.fastq.gz
+NMU_20732_S17_R1_001.fastq.gz
+
+* Sample sheet layout for fast neutron would look like:\
+M92-220-01_S43_R1_001.fastq.gz
+M92-220-05_S45_R1_001.fastq.gz
+M92-220-07_S47_R1_001.fastq.gz
+M92-220-02_S44_R1_001.fastq.gz
+M92-220-06_S46_R1_001.fastq.gz
+4R07C00CMN09NSFBV_S15_R1_001.fastq.gz
+4R08C69DMN09NSFBV_S4_R1_001.fastq.gz
+4R16C59DMN09NSFBV_S5_R1_001.fastq.gz
+FN_2R14C31CMN09NSFBV_S18_R1_001.fastq.gz  FN_2R25C06CMN09NSFBV_S19_R1_001.fastq.gz  FN_6R42C96DMN09NSFBV_S33_R1_001.fastq.gz
+
+* UMN sample sheet for transgenics:\
+Bert-01_S34_R1_001.fastq.gz
+Bert-02_S37_R1_001.fastq.gz
+Bert-03_S76_R1_001.fastq.gz
+Bert-04_S35_R1_001.fastq.gz
+Bert-05_S36_R1_001.fastq.gz
+WPT0579-03_S53_R1_001.fastq.gz
+WPT641-F-3-3_S54_R1_001.fastq.gz
+WPT641-F-3-4_S55_R1_001.fastq.gz
+WPT642-F-1-3_S56_R1_001.fastq.gz
+WPT642-L-6-4_S57_R1_001.fastq.gz
+WPT642-L-9-3_S58_R1_001.fastq.gz
+WPT647-L-10-2_S59_R1_001.fastq.gz
+WPT647-L-10-3_S60_R1_001.fastq.gz
+WPT647-L-12-3_S61_R1_001.fastq.gz
+WPT648-L-7-4_S62_R1_001.fastq.gz
+WPT649-F-1-2_S63_R1_001.fastq.gz
+WPT650-L-1-3_S64_R1_001.fastq.gz
+WPT650-L-5-3_S65_R1_001.fastq.gz
+WPT651-L-3-3_S66_R1_001.fastq.gz
+WPT651-L-5-3_S67_R1_001.fastq.gz
+WPT651-L-9-1_S68_R1_001.fastq.gz
+WPT651-L-9-3_S69_R1_001.fastq.gz
+WPT652-F-9-3_S70_R1_001.fastq.gz
+WPT652-L-10-3_S71_R1_001.fastq.gz
+
+* UMN sample sheet for tissue culture (organogenesis):\
+Bert-01_S34_R1_001.fastq.gz
+Bert-02_S37_R1_001.fastq.gz
+Bert-03_S76_R1_001.fastq.gz
+Bert-04_S35_R1_001.fastq.gz
+Bert-05_S36_R1_001.fastq.gz
+WTP0579-16_S74_R1_001.fastq.gz
+WTP0579-18_S72_R1_001.fastq.gz
+WTP0579-26_S73_R1_001.fastq.gz
+WTP0579-32_S75_R1_001.fastq.gz
+
+* UGA transgenic:\
+Jack-01_S40_R1_001.fastq.gz
+Jack-02_B07_S42_R1_001.fastq.gz
+Jack-05_S41_R1_001.fastq.gz
+Jack-02_B03_S38_R1_001.fastq.gz
+Jack-04_S39_R1_001.fastq.gz
+3MT_10-4_S2_R1_001.fastq.gz
+3MT_11-3_S14_R1_001.fastq.gz
+3MT_12-3_S10_R1_001.fastq.gz
+3MT_2-3_S11_R1_001.fastq.gz
+3MT_4-3_S12_R1_001.fastq.gz
+3MT_5-4_S22_R1_001.fastq.gz
+3MT_7-2_S23_R1_001.fastq.gz
+3MT_8-2_S24_R1_001.fastq.gz
+3MT_9-3_S3_R1_001.fastq.gz
+6MT_1-3_S8_R1_001.fastq.gz
+6MT_2-2_S9_R1_001.fastq.gz
+6MT_3-3_S25_R1_001.fastq.gz
+6MT_4-4_S26_R1_001.fastq.gz
+6MT_5-4_S27_R1_001.fastq.gz
+6MT_6-3_S28_R1_001.fastq.gz
+6MT_6-4_S29_R1_001.fastq.gz
+6MT_6-5_S30_R1_001.fastq.gz
+6MT_8-4_S31_R1_001.fastq.gz
+6MT_9-3_S32_R1_001.fastq.gz
+
+* UGA tissue culture (somatic embryogenesis):\
+Jack-01_S40_R1_001.fastq.gz
+Jack-02_B07_S42_R1_001.fastq.gz
+Jack-05_S41_R1_001.fastq.gz
+Jack-02_B03_S38_R1_001.fastq.gz
+Jack-04_S39_R1_001.fastq.gz
+3MR_10_S20_R1_001.fastq.gz
+3MR_12_S21_R1_001.fastq.gz
+6MR_2_S6_R1_001.fastq.gz
+6MR_9_S7_R1_001.fastq.gz
