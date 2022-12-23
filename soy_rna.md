@@ -53,6 +53,7 @@ WTP (UMN tissue culture)
 
 MT (UG transgenics)                
 `
+$CHURP bulk_rnaseq -e /scratch.global/lee02326/RNASeq/MT/mt.csv -f /scratch.global/lee02326/RNASeq/MT -x /panfs/jay/groups/9/morrellp/shared/References/Reference_Sequences/Soybean/PhytozomeV11/Gmax/assembly/hisat2_files/Gmax_275_v2.0 -g /scratch.global/lee02326/RNASeq/Glycine_max.Glycine_max_v2.1.42.chr.sorted.gtf.gz -o /scratch.global/lee02326/RNASeq/MT/out/ -d /scratch.global/lee02326/RNASeq/MT/work/ --strand FR -q amdsmall --ppn 4 --mem 16000 -w 2 --trimmomatic-opts="ILLUMINACLIP:/scratch.global/lee02326/adapters.fa:4:15:7:2:true LEADING:3 TRAILING:3 SLIDINGWINDOW:4:15 MINLEN:18"
 `
 
 MR (UG tissue culture)              
