@@ -14,8 +14,13 @@ HISAT: `/panfs/jay/groups/9/morrellp/shared/References/Reference_Sequences/Soybe
 GTF: `/panfs/jay/groups/9/morrellp/shared/References/Reference_Sequences/Soybean/PhytozomeV11/Gmax/annotation/Gmax_275_Wm82.a2.v1.gene_exons.gtf.gz`
 
         
-NOTE: May need to add custom adapter argument         
+Custom adapters                
 `--trimmomatic-opts="ILLUMINACLIP:/path/to/adapters.fa:4:15:7:2:true LEADING:3 TRAILING:3 SLIDINGWINDOW:4:15 MINLEN:18"`
+
+Adapters:     
+`
+/scratch.global/lee02326/adapters.fa
+`
 
 
 # Scripts             
