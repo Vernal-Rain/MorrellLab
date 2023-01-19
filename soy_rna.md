@@ -5,9 +5,7 @@ Data: `/panfs/roc/data_release/1/bmgc/morrellp/nextseq/191017_NB551498_0002_AH5W
 
 Churp: `/home/riss/public/CHURP/0.2.0/churp.py`    
 
-CSV: `/scratch.global/lee02326/RNASeq/NMU/nmu.csv`    
-
-Fasta: `/panfs/jay/groups/9/morrellp/shared/References/Reference_Sequences/Soybean/PhytozomeV11/Gmax/assembly/Gmax_275_v2.0.fa`    
+CSV: `/scratch.global/lee02326/RNASeq/NMU/nmu.csv`       
      
 HISAT: `/panfs/jay/groups/9/morrellp/shared/References/Reference_Sequences/Soybean/PhytozomeV11/Gmax/assembly/hisat2_files/Gmax_275_v2.0`      
     
@@ -36,8 +34,8 @@ perl ~/workspace/gff3sort/check-disorder.pl ~/workspace/RNASeq/GmaxWm82ISU_01_72
 `
                     
 Get "Chr##" format:   
-`      
-sed -i -r "s/^Gm/Chr/g" GmaxWm82ISU_01_724_v2.1.gene.sorted.gtf  
+`
+sed -i -r "s/^Gm/Chr/g" ~/workspace/RNASeq/GmaxWm82ISU_01_724_v2.1.gene.sorted.gtf  
 `      
            
 Script to run all samples:         
