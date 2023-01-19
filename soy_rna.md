@@ -25,6 +25,7 @@ Adapters:
 - htslib    
 - gff3sort       
 - perl     
+- churp
          
           
 # Scripts             
