@@ -32,7 +32,7 @@ perl ~/workspace/gff3sort/gff3sort.pl --precise --chr_order natural ~/workspace/
 `             
            
 `
-perl check-disorder.pl ~/workspace/RNASeq/GmaxWm82ISU_01_724_v2.1.gene.sorted.gtf
+perl ~/workspace/gff3sort/check-disorder.pl ~/workspace/RNASeq/GmaxWm82ISU_01_724_v2.1.gene.sorted.gtf
 `
                     
 Script to run all samples:         
