@@ -29,7 +29,8 @@ Adapters:
 Sort gtf file:         
 `
 perl ~/workspace/gff3sort/gff3sort.pl --precise --chr_order natural ~/workspace/RNASeq/GmaxWm82ISU_01_724_v2.1.gene.gtf > ~/workspace/RNASeq/GmaxWm82ISU_01_724_v2.1.gene.sorted.gtf
-`
+`             
+           
 `
 perl check-disorder.pl ~/workspace/RNASeq/GmaxWm82ISU_01_724_v2.1.gene.sorted.gtf
 `
