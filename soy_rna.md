@@ -19,11 +19,21 @@ Adapters:
 `
 /scratch.global/lee02326/adapters.fa
 `
-
-
-
+          
+# Dependencies    
+- cufflinks       
+- htslib    
+- gff3sort       
+- perl     
+         
+          
 # Scripts             
-
+          
+Gff3 to gtf:         
+`
+gffread GmaxWm82ISU_01_724_v2.1.gene.gff3 -T -o GmaxWm82ISU_01_724_v2.1.gene.gtf
+`     
+  
 Sort gtf file:         
 `
 perl ~/workspace/gff3sort/gff3sort.pl --precise --chr_order natural ~/workspace/RNASeq/GmaxWm82ISU_01_724_v2.1.gene.gtf > ~/workspace/RNASeq/GmaxWm82ISU_01_724_v2.1.gene.sorted.gtf
