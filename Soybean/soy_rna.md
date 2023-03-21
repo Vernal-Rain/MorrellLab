@@ -39,8 +39,12 @@ gffread GmaxWm82ISU_01_724_v2.1.gene.gff3 -T -o GmaxWm82ISU_01_724_v2.1.gene.gtf
 
 Gff3 to gtf:         
 `
-python3               
-import bioinfokit.analys as an           
+python3
+`
+`
+import bioinfokit.analys as an   
+`
+`
 an.gff.gff_to_gtf(GmaxWm82ISU_01_724_v2.1.gene_exons.gff3)
 ` 
   
