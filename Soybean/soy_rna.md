@@ -9,7 +9,8 @@ CSV: `/scratch.global/lee02326/RNASeq/NMU/nmu.csv`
      
 HISAT: `/panfs/jay/groups/9/morrellp/shared/References/Reference_Sequences/Soybean/PhytozomeV11/Gmax/assembly/hisat2_files/Gmax_275_v2.0`      
     
-GTF: `/panfs/jay/groups/9/morrellp/shared/References/Reference_Sequences/Soybean/PhytozomeV11/Gmax/annotation/Gmax_275_Wm82.a2.v1.gene_exons.gtf.gz`
+GTF: `/panfs/jay/groups/9/morrellp/shared/References/Reference_Sequences/Soybean/PhytozomeV11/Gmax/annotation/Gmax_275_Wm82.a2.v1.gene_exons.gtf.gz`     
+Working GTF: `/scratch.global/lee02326/RNASeq/GmaxWm82ISU_01_724_v2.1.gene_exons.sorted.gtf.gz`         
 
         
 Custom adapters                
@@ -26,14 +27,22 @@ Adapters:
 - gff3sort       
 - perl     
 - churp
+- bioinfokit
          
           
 # Scripts             
           
-Gff3 to gtf:         
+Gff3 to gtf (old):         
 `
 gffread GmaxWm82ISU_01_724_v2.1.gene.gff3 -T -o GmaxWm82ISU_01_724_v2.1.gene.gtf
 `     
+
+Gff3 to gtf:         
+`
+python3
+import bioinfokit.analys as an
+an.gff.gff_to_gtf(GmaxWm82ISU_01_724_v2.1.gene_exons.gff3)
+` 
   
 Sort gtf file:         
 `
