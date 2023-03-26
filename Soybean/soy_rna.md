@@ -21,14 +21,25 @@ Adapters:
 /scratch.global/lee02326/adapters.fa
 `
           
-# Dependencies    
-- cufflinks   
-- python 3    
+# Dependencies
+
+General     
+- python3     
+- perl    
+- R
+   
+GTF creation/cleanup
 - htslib    
-- gff3sort       
-- perl     
-- churp
-- bioinfokit
+- bioinfokit 
+- gff3sort    
+
+RNASeq pipeline         
+- CHURP (https://github.umn.edu/MSI-RIS/CHURP/wiki)      
+
+DEG analysis  
+- edgeR
+
+
          
           
 # Scripts             
