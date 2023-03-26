@@ -22,7 +22,8 @@ Adapters:
 `
           
 # Dependencies    
-- cufflinks       
+- cufflinks   
+- python 3    
 - htslib    
 - gff3sort       
 - perl     
