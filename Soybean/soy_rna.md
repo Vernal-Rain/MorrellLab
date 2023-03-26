@@ -26,16 +26,13 @@ Adapters:
 General     
 - python3     
 - perl    
-- R
-   
-GTF creation/cleanup
+- R        
+GTF creation/cleanup 
 - htslib    
 - bioinfokit 
-- gff3sort    
-
+- gff3sort     
 RNASeq pipeline         
 - CHURP (https://github.umn.edu/MSI-RIS/CHURP/wiki)      
-
 DEG analysis  
 - edgeR
 
