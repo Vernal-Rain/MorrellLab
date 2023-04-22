@@ -92,11 +92,17 @@ $CHURP bulk_rnaseq -e /scratch.global/lee02326/RNASeq/NMU/nmu.csv -f /scratch.gl
 
 
 FN (fast neutron)           
-File path: `/scratch.global/lee02326/RNASeq/FN/`              
+File path: `/scratch.global/lee02326/RNASeq/FN/`     
+
+`$CHURP bulk_rnaseq -e /scratch.global/lee02326/RNASeq/FN/fn.csv -f /scratch.global/lee02326/RNASeq/FN -x /panfs/jay/groups/9/morrellp/shared/References/Reference_Sequences/Soybean/PhytozomeV11/Gmax/assembly/hisat2_files/Gmax_275_v2.0 -g /scratch.global/lee02326/RNASeq/GmaxWm82ISU_01_724_v2.1.gene_exons.sorted.gtf.gz -o /scratch.global/lee02326/RNASeq/FN/out -d /scratch.global/lee02326/RNASeq/FN/work/ --strand FR -q amdsmall --ppn 4 --mem 24000 -w 2 --no-submit --trimmomatic-opts="ILLUMINACLIP:/scratch.global/lee02326/adapters.fa:4:15:7:2:true LEADING:3 TRAILING:3 SLIDINGWINDOW:4:15 MINLEN:18" 
+`
 
 
 WPT (UMN transgenics)         
-File path: `/scratch.global/lee02326/RNASeq/WPT/`                  
+File path: `/scratch.global/lee02326/RNASeq/WPT/`      
+
+`$CHURP bulk_rnaseq -e /scratch.global/lee02326/RNASeq/WPT/wpt.csv -f /scratch.global/lee02326/RNASeq/WPT -x /panfs/jay/groups/9/morrellp/shared/References/Reference_Sequences/Soybean/PhytozomeV11/Gmax/assembly/hisat2_files/Gmax_275_v2.0 -g /scratch.global/lee02326/RNASeq/GmaxWm82ISU_01_724_v2.1.gene_exons.sorted.gtf.gz -o /scratch.global/lee02326/RNASeq/WPT/out -d /scratch.global/lee02326/RNASeq/WPT/work/ --strand FR -q amdsmall --ppn 4 --mem 24000 -w 2 --no-submit --trimmomatic-opts="ILLUMINACLIP:/scratch.global/lee02326/adapters.fa:4:15:7:2:true LEADING:3 TRAILING:3 SLIDINGWINDOW:4:15 MINLEN:18" 
+`
 
 
 WTP (UMN tissue culture) 
