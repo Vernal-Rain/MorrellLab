@@ -1,0 +1,13 @@
+Status	NMU_14204	NMU_16331	NMU_20728	NMU_20732	Williams-82-ISU-01-01	Williams-82-ISU-01-02	Williams-82-ISU-01-03	Williams-82-ISU-01-04	Williams-82-ISU-01-05
+Assigned	469083	440598	540000	406898	763357	615560	620227	644622	651709
+Unassigned_Unmapped	0	0	0	0	0	0	0	0	0
+Unassigned_MappingQuality	0	0	0	0	0	0	0	0	0
+Unassigned_Chimera	0	0	0	0	0	0	0	0	0
+Unassigned_FragmentLength	0	0	0	0	0	0	0	0	0
+Unassigned_Duplicate	0	0	0	0	0	0	0	0	0
+Unassigned_MultiMapping	0	0	0	0	0	0	0	0	0
+Unassigned_Secondary	0	0	0	0	0	0	0	0	0
+Unassigned_Nonjunction	0	0	0	0	0	0	0	0	0
+Unassigned_NoFeatures	3175436	2773639	3637101	2771115	4089964	3342496	4222801	3479444	3990459
+Unassigned_Overlapping_Length	0	0	0	0	0	0	0	0	0
+Unassigned_Ambiguity	378	384	476	324	553	442	458	455	504

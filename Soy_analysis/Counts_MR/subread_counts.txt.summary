@@ -1,0 +1,13 @@
+Status	3MR_10	3MR_12	6MR_2	6MR_9	Jack-01	Jack-02_B03	Jack-02_B07	Jack-04	Jack-05
+Assigned	524127	480963	581159	484959	547514	697503	826873	693182	591393
+Unassigned_Unmapped	0	0	0	0	0	0	0	0	0
+Unassigned_MappingQuality	0	0	0	0	0	0	0	0	0
+Unassigned_Chimera	0	0	0	0	0	0	0	0	0
+Unassigned_FragmentLength	0	0	0	0	0	0	0	0	0
+Unassigned_Duplicate	0	0	0	0	0	0	0	0	0
+Unassigned_MultiMapping	0	0	0	0	0	0	0	0	0
+Unassigned_Secondary	0	0	0	0	0	0	0	0	0
+Unassigned_Nonjunction	0	0	0	0	0	0	0	0	0
+Unassigned_NoFeatures	3843660	3461485	3874346	3270937	4020733	4559610	5233803	4370856	3860697
+Unassigned_Overlapping_Length	0	0	0	0	0	0	0	0	0
+Unassigned_Ambiguity	531	439	508	400	520	546	593	589	530

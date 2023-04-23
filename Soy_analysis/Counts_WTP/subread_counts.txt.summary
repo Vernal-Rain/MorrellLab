@@ -1,0 +1,13 @@
+Status	Bert-01	Bert-02	Bert-03	Bert-04	Bert-05	WTP0579-16	WTP0579-18	WTP0579-26	WTP0579-32
+Assigned	541844	759404	721772	562079	735937	665471	746257	663098	673113
+Unassigned_Unmapped	0	0	0	0	0	0	0	0	0
+Unassigned_MappingQuality	0	0	0	0	0	0	0	0	0
+Unassigned_Chimera	0	0	0	0	0	0	0	0	0
+Unassigned_FragmentLength	0	0	0	0	0	0	0	0	0
+Unassigned_Duplicate	0	0	0	0	0	0	0	0	0
+Unassigned_MultiMapping	0	0	0	0	0	0	0	0	0
+Unassigned_Secondary	0	0	0	0	0	0	0	0	0
+Unassigned_Nonjunction	0	0	0	0	0	0	0	0	0
+Unassigned_NoFeatures	3545705	4960413	3835499	3914882	4795110	3841083	4434957	4308349	4108931
+Unassigned_Overlapping_Length	0	0	0	0	0	0	0	0	0
+Unassigned_Ambiguity	411	580	675	356	523	370	435	331	394
