@@ -213,4 +213,5 @@
  1016  tabix ancestral_states.vcf.gz 
 
  1017  history
+ bcftools annotate -a ances_states.txt.gz -h hdr.txt -c CHROM,-,POS,INFO/AA reference_test_stats.vcf.gz > annotated.vcf
 
