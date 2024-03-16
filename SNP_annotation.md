@@ -1,4 +1,6 @@
-# Clean up annotations file    
+# Ancestral state annotations      
+       
+## Clean up annotations file    
        
 Transform file to bed format
 
@@ -22,12 +24,23 @@ Index annotations file
 `tabix -p bed ancestral_states.txt.gz`   
 
     
-# Make header    
+## Make header    
         
 `echo '##INFO=<ID=AA,Number=1,Type=String,Description="Ancestral state">' > hdr.txt`     
 
     
-# Annotation   
+## Annotation   
       
 `bcftools annotate -a ancestral_states.txt.gz -h hdr.txt -c CHROM,-,POS,INFO/AA reference_test_stats.vcf.gz > annotated.vcf` 
 
+                
+# SNP ID annotations   
+       
+## Prepare annotations file   
+           
+`echo '##INFO=<ID=AA,Number=1,Type=String,Description="Ancestral state">' > hdr.txt`     
+
+      
+## Annotation   
+      
+`bcftools annotate -a ancestral_states.txt.gz -h hdr.txt -c CHROM,-,POS,INFO/AA reference_test_stats.vcf.gz > annotated.vcf` 
