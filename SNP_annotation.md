@@ -3,9 +3,11 @@
 1. Load required modules         
 `module load htslib`    
 `module load bcftools`
-2. Zip annotations file        
+    
+3. Zip annotations file        
 `bgzip ancestral_states.txt`
-3. Index annotations file      
+       
+5. Index annotations file      
 `tabix -p bed ancestral_states.txt.gz`   
 
 # Make header    
