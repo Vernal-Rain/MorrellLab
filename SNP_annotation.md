@@ -1,8 +1,8 @@
 # Make annotations file  
 
 1. Load required modules         
-`module load htslib`    
-`module load bcftools`
+`module load htslib    
+module load bcftools`
     
 3. Zip annotations file        
 `bgzip ancestral_states.txt`
