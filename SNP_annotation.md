@@ -38,9 +38,10 @@ Index annotations file
        
 ## Prepare annotations file (.vcf)      
            
-`echo '##INFO=<ID=AA,Number=1,Type=String,Description="Ancestral state">' > hdr.txt`     
+`bgzip IT97K_combined_genotype_snps.g.vcf`      
+`tabix -p vcf IT97K_combined_genotype_snps.g.vcf.gz`            
 
       
 ## Annotation   
       
-`bcftools annotate -a ancestral_states.txt.gz -h hdr.txt -c CHROM,-,POS,INFO/AA reference_test_stats.vcf.gz > annotated.vcf` 
+`bcftools annotate -a reference_test_stats.vcf.gz -c CHROM,POS,ID IT97K_combined_genotype_snps.g.vcf.gz > annotated_IT97K.vcf` 
