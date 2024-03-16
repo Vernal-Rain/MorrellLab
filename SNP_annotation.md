@@ -1,6 +1,6 @@
 # Ancestral state annotations      
        
-## Clean up annotations file    
+## Clean up annotations file (.bed)       
        
 Transform file to bed format
 
@@ -36,7 +36,7 @@ Index annotations file
                 
 # SNP ID annotations   
        
-## Prepare annotations file   
+## Prepare annotations file (.vcf)      
            
 `echo '##INFO=<ID=AA,Number=1,Type=String,Description="Ancestral state">' > hdr.txt`     
 
