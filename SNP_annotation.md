@@ -1,4 +1,4 @@
-# Ancestral state annotations      
+# 1. Ancestral state annotations      
        
 ## Clean up annotations file (.bed)       
        
@@ -33,8 +33,9 @@ Index annotations file
       
 `bcftools annotate -a ancestral_states.txt.gz -h hdr.txt -c CHROM,-,POS,INFO/AA reference_test_stats.vcf.gz > annotated.vcf` 
 
-                
-# SNP ID annotations   
+
+                    
+# 2. SNP ID annotations   
        
 ## Prepare annotations file (.vcf)      
            
