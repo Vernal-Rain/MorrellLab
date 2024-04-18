@@ -1,3 +1,4 @@
+#!/usr/bin/env python3
 '''
 Sample ranks for cowpea SNPs by temperature
 '''
@@ -28,7 +29,14 @@ def load_snps(file):
     return data
 
 
-def sample_rank(snps_file, data_files):
+def write_output(result, outfile):
+    with open(outfile, 'w') as file:
+        for i in result:
+            file.write('\t'.join(str(s) for s in i) + '\n')
+    return
+
+
+def sample_rank(snps_file, data_files, outfile):
     snps = load_snps(snps_file)
     data = []
     result = []
@@ -38,18 +46,27 @@ def sample_rank(snps_file, data_files):
 
     for snp in snps.keys():
         samples = snps[snp]
-        filtered_data = []
+        labeled_data = []
         for i in data: 
             if i[0] in samples:
-                filtered_data.append((snp, i[0], i[1]))
-        filtered_data.sort(key= lambda x: x[2], reverse= True)
-        result = result + filtered_data
+                labeled_data.append((snp, i[0], i[1]))
+        result = result + labeled_data
+    result.sort(key= lambda x: x[2], reverse= True)
 
-    with open('sample_rank.txt', 'w') as file:
-        for i in result:
-            file.write('\t'.join(str(s) for s in i) + '\n')
+    rank = 1
+    val = result[0][2]
+    for i in range(len(result)):
+        if result[i][2] == val:
+            result[i] = (result[i][0], result[i][1], rank)
+        elif result[i][2] < val:
+            rank = rank + 1
+            val = result[i][2]
+            result[i] = (result[i][0], result[i][1], rank)
+        else:
+            print('Warning: file not sorted.')
 
-    return result
+    write_output(result, outfile)
+    return
 
 
 
@@ -57,7 +74,7 @@ if __name__ == '__main__':
 
     snps_file = 'samples_alt_SNP.txt'
     data_files = ['Cowpea_Bioclim01.txt', 'Cowpea_Bioclim05.txt', 'Cowpea_Bioclim08.txt']
-    
-    result = sample_rank(snps_file, data_files)
+    outfile = 'sample_rank.txt'
+    sample_rank(snps_file, data_files, outfile)
 
   
