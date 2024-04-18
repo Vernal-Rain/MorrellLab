@@ -45,6 +45,10 @@ def sample_rank(snps_file, data_files):
         filtered_data.sort(key= lambda x: x[2], reverse= True)
         result = result + filtered_data
 
+    with open('sample_rank.txt', 'w') as file:
+        for i in result:
+            file.write('\t'.join(str(s) for s in i) + '\n')
+
     return result
 
 
@@ -56,7 +60,4 @@ if __name__ == '__main__':
     
     result = sample_rank(snps_file, data_files)
 
-    with open('sample_rank.txt', 'w') as file:
-        for i in result:
-            file.write('\t'.join(str(s) for s in i) + '\n')
   
