@@ -1,0 +1,3 @@
+#!/bin/bash
+
+python3 ~/workspace/CHURP-0.2.3/CHURP-0.2.3/churp.py bulk_rnaseq -e "/scratch.global/lee02326/RNASeq/$1/${2}.csv" -f "/scratch.global/lee02326/RNASeq/$1" -x /panfs/jay/groups/9/morrellp/shared/References/Reference_Sequences/Soybean/PhytozomeV11/Gmax/assembly/hisat2_files/Gmax_275_v2.0  -g /scratch.global/lee02326/RNASeq/GmaxWm82ISU_01_724_v2.1.gene_exons.sorted.gtf.gz -o "/scratch.global/lee02326/RNASeq/$1/out" -d "/scratch.global/lee02326/RNASeq/$1/work"/ --strand FR -q amdsmall --ppn 4 --mem 24000 -w 2 --no-submit --trimmomatic-opts="ILLUMINACLIP:/scratch.global/lee02326/RNASeq/adapters.fa:4:15:7:2:true LEADING:3 TRAILING:3 SLIDINGWINDOW:4:15 MINLEN:18"
